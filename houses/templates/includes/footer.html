@@ -1,0 +1,39 @@
+{% load static %}
+<div class="fixed-bottom">
+    <div class="container-fluid" style="background-color: #babbbc" >
+        <div class="container text-center">
+            <div class="col align-self-start">
+                <div class="row mb-5">
+                    <div class="col-sm">
+                        <a href="{% url 'catalogs:index' %}">
+                            Главная
+                        </a>
+    
+                    </div>
+                    <div class="col-sm">
+                        <a href="{% url 'catalogs:catalog' %}">
+                            Каталог
+                        </a>
+    
+                    </div>
+                    <div class="col-sm text-center">
+                        <a class="navbar-brand"
+                           href="{% url 'catalogs:index' %}">
+                            <img src="{% static 'img/fav/favicon-32x32.png' %}"
+                                 width="15px"
+                                 height="15px" class="d-inline-block align-top"
+                                 alt="">
+                            <span style="color:red">Строй</span>Дом
+                        </a>
+    
+                    </div>
+    
+                </div>
+                <div class="row">
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</div>
