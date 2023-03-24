@@ -25,7 +25,11 @@ SECRET_KEY = ')*pi!o%@7wh8h1@_e#e*gd0=5y^5+9fv*6xg%tsbnj71mbjk)^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = [
+    # 'www.gusevskiy.pythonanywhere.com',
+    # 'gusevskiy.pythonanywhere.com',
+]
 
 
 # Application definition
@@ -126,3 +130,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
