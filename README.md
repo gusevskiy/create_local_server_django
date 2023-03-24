@@ -23,3 +23,8 @@
                 -Цена
                 -Пагинация
                     -назад , 1, 2, Вперед 
+
+
+![Image alt](https://github.com/gusevskiy/create_local_server_django/raw/main/create_local_server_django/screen.png)
+
+
