@@ -25,6 +25,6 @@
                     -назад , 1, 2, Вперед 
 
 
-![Image alt](https://github.com/gusevskiy/create_local_server_django/raw/main/create_local_server_django/screen.png)
 
+<img src="screen.png" width="700" height="500"/>
 
