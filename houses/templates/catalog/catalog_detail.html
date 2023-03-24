@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>Каталог деталь</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}Детали{% endblock %}
+
+{% block content %}
+
+<div class="album py-5 bg-light">
+  <div class=container center>
+    <h1>Подробное описание товара </h1>
+      <p>Контент в разработке</p>
+      <p>Можете перейти на вкладку <a href="{% url 'catalogs:catalog' %}">каталог</a></p>
+  </div>
+</div>
+
+
+  
+
+
+
+{% endblock %}
